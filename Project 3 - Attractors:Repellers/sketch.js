@@ -176,7 +176,7 @@ function createMightyParticles(initialPos){
     
     var hue = random(210,250);
     
-    for(var i=0; i<random(3, 10); i++){
+    for(var i=0; i<random(50, 100); i++){
         var pos;
         if (!initialPos){
             pos = createVector(mouseX, mouseY);
